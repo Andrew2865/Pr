@@ -24,16 +24,8 @@ int main()
 		B = 1/(tan(x)+18);
 	y = A - B;
 	cout << endl;
-	cout << "1)y = " << y << endl;
-	if (x <= -0.1)
-		B = 5 * cos(18 * x);
-	else
-		if (x > 1.2)
-			B =1 / (tan(x) + 18);
-		else
-			B = atan((x + 2) / 5);
-	y = A - B;
-	cout << "2) y = " << y << endl;
-	cin.get();
+	cout << "y = " << y << endl;
+	
+	сin.get();
 	return 0;
 }
